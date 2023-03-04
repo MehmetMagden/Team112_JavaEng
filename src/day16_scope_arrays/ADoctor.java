@@ -8,6 +8,7 @@ public class ADoctor {
     boolean onVocation; // false
     String phoneNumber; // null
 
+    // class variables
     static String nameOfHospital = "Star Hospital";
     static String hospitalPhoneNumber = "0345235235453";
 

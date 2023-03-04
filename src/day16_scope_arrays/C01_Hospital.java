@@ -20,7 +20,7 @@ public class C01_Hospital {
         doctor2.birthday = 1999;
         doctor2.phoneNumber = "0345235423452345";
 
-        //doctor1.name = "Hasan"; // changing name of the first doctor won't effect the second doctor;
+        //doctor1.name = "Hasan"; // changing name of the first doctor won't affect the second doctor;
 
 
         System.out.println(doctor1.name);
