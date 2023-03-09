@@ -21,7 +21,7 @@ public class C06_get_set {
         System.out.println(numbers.get(numbers.size()-1)); // 2
 
         // let's change 5 with 7
-        System.out.println(numbers.set(1, 7)); // 5 // set will return the old value
+        System.out.println(numbers.set(1, 7)); // 5 // set will return the removed value
 
         System.out.println(numbers); // [3, 7, 2]
 
