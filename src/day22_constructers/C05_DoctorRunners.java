@@ -1,4 +1,4 @@
-package day_22_constructers;
+package day22_constructers;
 
 public class C05_DoctorRunners {
     public static void main(String[] args) {

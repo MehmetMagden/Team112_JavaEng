@@ -1,4 +1,4 @@
-package day_22_constructers;
+package day22_constructers;
 
 import day16_scope_arrays.ADoctor;
 

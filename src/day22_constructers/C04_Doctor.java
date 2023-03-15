@@ -1,6 +1,4 @@
-package day_22_constructers;
-
-import java.util.Scanner;
+package day22_constructers;
 
 public class C04_Doctor {
 

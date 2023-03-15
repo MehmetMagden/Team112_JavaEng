@@ -1,4 +1,4 @@
-package day_22_constructers;
+package day22_constructers;
 
 public class C06_Car {
 
@@ -23,10 +23,14 @@ public class C06_Car {
     // java will delete the default constructor. And someby else may had used that default constructor. If somebdy else
     // in the project had used that default constructor. This action will cause an error for their codes. To prevent that
     // problem we should create a copy of default constructor.
+
+    // this constructor does not have any parameters // this one is a copy of default constructor. Because it has no
+    // parameters and it has nothing inside the body
     public C06_Car (){
 
     }
 
+    // this constructer has 4 parameters
     C06_Car (int yr, String brnd, String mdl, int prc) {
         year = yr;
         brand=brnd;
