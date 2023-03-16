@@ -7,7 +7,7 @@ public class C02_PassByValue {
 
 //        int price = 100;
 //        String price = "300";
-        discount10(price);
+        discount10(price); //180
         System.out.println("after calling discount10 method price is : "+price); // after calling the method price is : 200.0
         discount25(price);
         System.out.println("after calling discount25 method price is : "+price); // after calling the method price is : 200.0
