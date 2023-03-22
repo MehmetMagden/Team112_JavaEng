@@ -37,6 +37,12 @@ public class C01_StaticBlocks {
         System.out.println("Non-static block is executed");
     }
 
+    static {
+
+        System.out.println("second static block is executed");
+
+    }
+
 
 
 
