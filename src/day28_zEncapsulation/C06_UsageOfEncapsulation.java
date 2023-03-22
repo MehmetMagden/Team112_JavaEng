@@ -1,6 +1,6 @@
-package day_28_zEncapsulation;
+package day28_zEncapsulation;
 
-import day_28_StringBuildersTest.C05_Encapsulation;
+import day28_StringBuildersTest.C05_Encapsulation;
 
 public class C06_UsageOfEncapsulation {
 

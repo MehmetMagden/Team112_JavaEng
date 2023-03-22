@@ -1,4 +1,4 @@
-package day_28_StringBuildersTest;
+package day28_StringBuildersTest;
 
 import day28_StringBuilders_AccessModifiers_Encapsulation.C01_AccessModifers;
 

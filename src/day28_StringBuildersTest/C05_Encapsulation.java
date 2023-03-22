@@ -1,4 +1,4 @@
-package day_28_StringBuildersTest;
+package day28_StringBuildersTest;
 
 public class C05_Encapsulation {
 
