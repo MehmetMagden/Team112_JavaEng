@@ -9,6 +9,8 @@ public class HunterBirds extends Birds{
     String beak= "pointed beak";
 
     public static void main(String[] args) {
+
+
         HunterBirds hunterEagle = new HunterBirds();
 
         System.out.println(hunterEagle.move);  // they fly
@@ -46,6 +48,9 @@ public class HunterBirds extends Birds{
 
 
         AnimalKingdom animalEagle = new HunterBirds();
+        AnimalKingdom animalEagleBird = new Birds();
+        AnimalKingdom animalEagleBirdAnimal = new AnimalKingdom();
+
 
         System.out.println(animalEagle.move);  // they move
         System.out.println(animalEagle.nutrition);  // they are fed
