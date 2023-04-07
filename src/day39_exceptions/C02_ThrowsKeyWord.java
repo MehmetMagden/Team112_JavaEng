@@ -2,7 +2,13 @@ package day39_exceptions;
 
 import java.io.IOException;
 
-public class C02_ThrowKeyWord {
+public class C02_ThrowsKeyWord {
+
+
+
+
+
+
 
     public static void main(String[] args) throws IOException {
 
