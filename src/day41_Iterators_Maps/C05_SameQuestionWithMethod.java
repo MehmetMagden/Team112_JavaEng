@@ -10,6 +10,8 @@ public class C05_SameQuestionWithMethod {
        Map<Integer,String> schoolMap = MapMethods.createExampleMap();
        MapMethods.namesOfStudentsFromBranch(schoolMap,"h");
 
+
+
     }
 
 
