@@ -2,6 +2,7 @@ package day41_Iterators_Maps;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class MapMethods {
 
@@ -142,6 +143,72 @@ public class MapMethods {
         newValue= newValue.substring(0,newValue.length()-1);
 
         schoolMap.put(studentNumber,newValue);
+
+        return schoolMap;
+
+    }
+
+    public static int newMethod(int a, int b) {
+
+        int result = a + b;
+
+        return result;
+    }
+
+    public static void studentsFromClass(Map<Integer, String> schoolMap, int classNumber) {
+
+        //1) save entries from the map, create an entrySet
+        Set<Map.Entry<Integer,String>> schoolEntrySet= schoolMap.entrySet();
+
+        //2) reaching all keys and values of the entrySet
+
+        // 101=Ali-Cem-10-H
+        for (Map.Entry<Integer,String>  eachEntry: schoolEntrySet
+             ) {
+
+            // first we need to check if the students are from the classNumber
+
+            // reach values of each student
+            String value = eachEntry.getValue(); // Ali-Cem-10-H
+            String [] arr = value.split("-");
+
+            // is student from classNumber
+            if (arr[2].equals(classNumber+"")){
+
+                System.out.println(eachEntry.getKey()+" "+arr[0]+" "+arr[1]+" "+arr[2]+" "+arr[3]);
+
+            }
+
+
+        }
+
+
+
+    }
+
+
+    public static int addTwoNumbers(int i, int i1) {
+        int sum = i+i1;
+
+        return sum;
+    }
+
+    public static Map<Integer, String> makeCapitalsSurnames(Map<Integer, String> schoolMap) {
+
+        Set<Map.Entry<Integer,String>> schoolEntrySet = schoolMap.entrySet(); // created an entrySet
+
+        for ( Map.Entry<Integer,String> eachEntry : schoolEntrySet
+             ) {
+            //Entry set : 101=Ali-Cem-10-H
+            String value = eachEntry.getValue(); // Ali-Cem-10-H
+            String[] arr = value.split("-");
+
+            arr[1] = arr[1].toUpperCase(); // CEM
+
+            eachEntry.setValue(arr[0]+"-"+arr[1]+"-"+arr[2]+"-"+arr[3]);   // Ali-CEM-10-H
+
+
+        }
 
         return schoolMap;
 
